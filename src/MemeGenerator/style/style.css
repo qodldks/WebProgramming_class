@@ -71,3 +71,8 @@
 	border: none;
 	cursor: pointer;
 }
+
+.meme--image{
+	margin-top: 20px;
+	width: 100%;
+}
