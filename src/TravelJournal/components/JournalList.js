@@ -1,7 +1,5 @@
-import React from 'react'
-
-export const JournalList = () => {
-  return (
-	 <div>JournalList</div>
-  )
+const JournalList = ({ children }) => {
+	return <div className="journalList">{children}</div>
 }
+
+export default JournalList
