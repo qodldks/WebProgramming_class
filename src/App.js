@@ -1,18 +1,18 @@
-import { AirbnbApp } from "./Airbnb/AirbnbApp"
-import { JokeApp } from "./Joke/JokeApp"
-import { MemeGeneratorApp } from "./MemeGenerator/MemeGeneratorApp"
-import { TravelJournalApp } from "./TravelJournal/TravelJournalApp"
+import AirbnbApp from "./Airbnb/AirbnbApp"
+import JokeApp from "./Joke/JokeApp"
+import MemeGeneratorApp from "./MemeGenerator/MemeGeneratorApp"
+import TravelJournalApp from "./TravelJournal/TravelJournalApp"
 import BoxesApp from "./Boxes/BoxesApp"
-import "./App.css"
+
 
 function App() {
 	return (
 		<>
-			{/* <JokeApp/> */}
+			<JokeApp />
 			{/* <AirbnbApp/> */}
 			{/* <MemeGeneratorApp/> */}
 			{/* <TravelJournalApp/> */}
-			<BoxesApp />
+			{/* <BoxesApp /> */}
 		</>
 	)
 }

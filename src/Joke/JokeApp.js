@@ -1,15 +1,12 @@
-// import "./App.css"
+import React from "react"
 import Joke from "./Components/Joke"
 import JokeData from "./Components/JokeData"
 
-function JokeApp() {
-	return (
-		<>
-			{JokeData.map(data => {
-				return <Joke setUp={data.setup} punchLine={data.punchline} />
-			})}
-		</>
-	)
+const JokeApp = () => {
+	const jokeElements = JokeData.map(joke => {
+		return <Joke key={joke.id} setUp={joke.setup} punchLine={joke.punchline} />
+	})
+	return <div>{jokeElements}</div>
 }
 
 export default JokeApp
