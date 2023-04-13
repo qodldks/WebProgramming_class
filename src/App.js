@@ -1,7 +1,8 @@
-import AirbnbApp from "./Airbnb/AirbnbApp"
-import JokeApp from "./Joke/JokeApp"
-import MemeGeneratorApp from "./MemeGenerator/MemeGeneratorApp"
+import { AirbnbApp } from "./Airbnb/AirbnbApp"
+import { JokeApp } from "./Joke/JokeApp"
+import { MemeGeneratorApp } from "./MemeGenerator/MemeGeneratorApp"
 import { TravelJournalApp } from "./TravelJournal/TravelJournalApp"
+import BoxesApp from "./Boxes/BoxesApp"
 import "./App.css"
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
 			{/* <JokeApp/> */}
 			{/* <AirbnbApp/> */}
 			{/* <MemeGeneratorApp/> */}
-			<TravelJournalApp/>
+			{/* <TravelJournalApp/> */}
+			<BoxesApp />
 		</>
 	)
 }
