@@ -49,6 +49,7 @@
 	display: grid;
 	grid-template: 35px 40px / 1fr 1fr;
 	gap: 17px;
+	margin-top: 60px;
 }
 
 .form--input {

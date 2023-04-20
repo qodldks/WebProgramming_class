@@ -8,9 +8,9 @@ import BoxesApp from "./Boxes/BoxesApp"
 function App() {
 	return (
 		<>
-			<JokeApp />
+			{/* <JokeApp /> */}
 			{/* <AirbnbApp/> */}
-			{/* <MemeGeneratorApp/> */}
+			<MemeGeneratorApp/>
 			{/* <TravelJournalApp/> */}
 			{/* <BoxesApp /> */}
 		</>
